@@ -88,7 +88,7 @@ namespace ImageMetadataViewer
                     Console.WriteLine("\n⚠️ Install ExifTool (exiftool.exe) to enable the Strip Metadata feature.\n");
                 }
 
-                // DỌN RÁC (chỉ xóa file temp nếu tính năng Strip chưa di chuyển file đó đi)
+                // Delete temp file
                 if (isUrl && tempFilePath != null && File.Exists(tempFilePath))
                 {
                     try { File.Delete(tempFilePath); } catch { }
