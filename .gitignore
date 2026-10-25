@@ -1,0 +1,8 @@
+.vs/
+bin/
+obj/
+*.user
+*.suo
+.env
+appsettings.Local.json
+*.Backup.tmp
